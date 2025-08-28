@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: nginx-tls
+  namespace: default
+spec:
+  secretName: nginx-tls
+  dnsNames:
+    - app.norsse.org
+  issuerRef:
+    kind: Issuer
+    name: le-dns01-cloudflare-staging
