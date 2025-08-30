@@ -16,3 +16,7 @@ The demo system consists of five core Kubernetes resources that work together to
 | Certificate Request | Certificate   | nginx-tls                   | Defines certificate requirements             |
 | Certificate Issuer  | Issuer        | le-dns01-cloudflare-staging | Handles Let's Encrypt integration            |
 
+## High-Level System Architecture
+
+[![High-Level System Architecture](/doc/images/High-Level\ System\ Architecture.PNG "High-Level System Architecture")]
+
