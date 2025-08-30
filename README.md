@@ -18,7 +18,7 @@ The demo system consists of five core Kubernetes resources that work together to
 
 ## High-Level System Architecture
 
-[!High-Level System Architecture](/doc/images/hl.png "High-Level System Architecture")
+![High-Level System Architecture](/doc/images/hl.png "High-Level System Architecture")
 
 ## Core Components Overview
 
