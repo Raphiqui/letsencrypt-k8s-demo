@@ -1,8 +1,10 @@
-z# letsencrypt-k8s-demo
+# letsencrypt-k8s-demo
 
 ## Purpose and Scope
 
 This project serves as a practical demonstration of automated TLS certificate management in Kubernetes using Let's Encrypt and cert-manager. The system showcases how to deploy a simple nginx web application with fully automated HTTPS certificate provisioning and renewal using DNS-01 challenges through Cloudflare.
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Raphiqui/letsencrypt-k8s-demo)
 
 ## System Architecture Overview
 
@@ -68,5 +70,3 @@ A challenge must appear if everything worked (removed when done).
 By doing kubectl describe certificate it mush display the status of the actuall challenge
 
 It might be needed to wait up to 10 minutes for the all process to be done.
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Raphiqui/letsencrypt-k8s-demo)
