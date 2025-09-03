@@ -46,7 +46,7 @@ The system implements a three-tier architecture with clear separation between ap
 
 ## Certificate Management Architecture
 
-![Certificate Management Architecture](/doc/images/hl.png "Certificate Management Architecture")
+![Certificate Management Architecture](/doc/images/hl.jpg "Certificate Management Architecture")
 
 ## Notes
 
