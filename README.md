@@ -20,7 +20,7 @@ The demo system consists of five core Kubernetes resources that work together to
 
 ## High-Level System Architecture
 
-![High-Level System Architecture](/doc/images/hl.png "High-Level System Architecture")
+![High-Level System Architecture](/doc/images/hld.jpg "High-Level System Architecture")
 
 ## Core Components Overview
 
@@ -43,6 +43,10 @@ The system implements a three-tier architecture with clear separation between ap
  - le-dns01-cloudflare-staging: Issuer configured for Let's Encrypt staging environment
  - nginx-tls: Certificate resource requesting TLS certificate for app.norsse.org
  - Automated DNS-01 challenge resolution through Cloudflare API integration
+
+## Certificate Management Architecture
+
+![Certificate Management Architecture](/doc/images/hl.png "Certificate Management Architecture")
 
 ## Notes
 
